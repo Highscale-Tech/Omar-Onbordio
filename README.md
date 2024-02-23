@@ -45,12 +45,16 @@ To run the Project:
 After Cloning The repository : 
 Navigate  to the Directory OnBordio
 then use the following commands :
+
 npm install
+
 npm run dev
 
 To run the SENDEMAILSERVICE:
+
 Use the following commands :
  npm install 
+
  npm run server (to run the service )
 
 
