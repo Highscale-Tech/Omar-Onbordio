@@ -42,6 +42,7 @@ View candidates and subjects: See all the candidates and subjects you've added i
 Compose and send emails: Select desired candidate, choose a pre-defined subject, and personalize the email content before sending it.
 
 To run the Project:
+
 After Cloning The repository : 
 Navigate  to the Directory OnBordio
 then use the following commands :
@@ -53,6 +54,7 @@ npm run dev
 To run the SENDEMAILSERVICE:
 
 Use the following commands :
+
  npm install 
 
  npm run server (to run the service )
