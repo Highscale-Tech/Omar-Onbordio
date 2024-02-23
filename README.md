@@ -1,12 +1,12 @@
 Project Name: Onboardio
 
-Description:
+## Description:
 
 Onboardio is a tool designed to streamline and expedite email delivery for managers during the onboarding process. 
 It leverages Firebase to manage data and perform email sending, facilitating a smooth and efficient experience.
 
-Setup:
-Create a Firebase project: Follow the Firebase setup guide to create a project and obtain your project credentials.
+## Setup:
+### Create a Firebase project: Follow the Firebase setup guide to create a project and obtain your project credentials.
 Create Firebase collections: Manually create two collections in Firestore:
 candidates: Contains a single field called candidatEmail to store candidate email addresses.
 subjects: Contains a single field called SubjectName to store pre-defined email subjects.
@@ -36,13 +36,13 @@ Replace your_backend_port_number with the desired port number for your backend s
 Replace your_email_address with the email address you'll be using for sending emails.
 Replace your_app-specific_password with the app-specific password generated after enabling Two-factor authentication for your email account.
 
-Usage:
+## Usage:
 
 Login: Use either email/password or Google Provider authentication to log in.
 View candidates and subjects: See all the candidates and subjects you've added in the corresponding lists.
 Compose and send emails: Select desired candidate, choose a pre-defined subject, and personalize the email content before sending it.
 
-To run the Project:
+### To run the Project:
 
 After Cloning The repository : 
 Navigate  to the Directory OnBordio
@@ -61,7 +61,7 @@ Use the following commands :
  npm run server (to run the service )
 
 
-Additional Notes:
+## Additional Notes:
 Make sure you have Node.js and npm  installed on your system before proceeding.
 Double-check that you've replaced all placeholders in the .env file with your own values.
 You'll need to create a test email and password manually in your Firebase Authentication service for login testing purposes.
