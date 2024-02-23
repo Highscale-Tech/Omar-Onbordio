@@ -12,6 +12,7 @@ candidates: Contains a single field called candidatEmail to store candidate emai
 subjects: Contains a single field called SubjectName to store pre-defined email subjects.
 Create .env file: 
 Create a .env file at the root of the Onbordio folder to store your Firebase project credentials:
+
 VITE_API_KEY=your_app_api_key
 VITE_AUTH_DOMAIN=your_app_auth_domain
 VITE_PROJECT_ID=your_app_project_id
