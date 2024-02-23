@@ -10,18 +10,23 @@ Create a Firebase project: Follow the Firebase setup guide to create a project a
 Create Firebase collections: Manually create two collections in Firestore:
 candidates: Contains a single field called candidatEmail to store candidate email addresses.
 subjects: Contains a single field called SubjectName to store pre-defined email subjects.
-Create .env file: Create a .env file at the root of the Onbordio folder to store your Firebase project credentials:
+Create .env file: 
+Create a .env file at the root of the Onbordio folder to store your Firebase project credentials:
 VITE_API_KEY=your_app_api_key
 VITE_AUTH_DOMAIN=your_app_auth_domain
 VITE_PROJECT_ID=your_app_project_id
 VITE_STORAGE_BUCKET=your_app_storage_bucket
 VITE_MESSAGING_SENDER_ID=your_app_messaging_sender_id
 VITE_APP_ID=your_app_id
+
 Replace the placeholders with your actual values.
-Create separate .env file for email sending: Create another .env file in the SENDEMAILSERVICE folder to store your email service credentials:
+Create separate .env file for email sending: 
+Create another .env file in the SENDEMAILSERVICE folder to store your email service credentials:
+
 PORT=your_backend_port_number
 USER=your_email_address
 APP_PASSWORD=your_app-specific_password
+
 Replace your_backend_port_number with the desired port number for your backend server.
 Replace your_email_address with the email address you'll be using for sending emails.
 Replace your_app-specific_password with the app-specific password generated after enabling Two-factor authentication for your email account.
