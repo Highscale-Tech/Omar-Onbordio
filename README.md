@@ -17,6 +17,7 @@ VITE_API_KEY=your_app_api_key
 
 VITE_AUTH_DOMAIN=your_app_auth_domain
 VITE_PROJECT_ID=your_app_project_id
+
 VITE_STORAGE_BUCKET=your_app_storage_bucket
 
 VITE_MESSAGING_SENDER_ID=your_app_messaging_sender_id
